@@ -1,0 +1,20 @@
+<section>
+  <div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 text-center">
+          <h2 class="section-heading">Watch Previous Wichitalks</h2>
+          <hr class="primary">
+          <ul>
+          {% for post in site.posts %}
+            <li class="previous col-lg-4">
+              <a href="{{ post.url }}">
+                <!-- <img src='{{ post.image }}'> -->
+                {{ post.title }}
+              </a>
+            </li>
+          {% endfor %}
+          </ul>
+        </div>
+      </div>
+  </div>
+</section>

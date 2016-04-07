@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body id="page-top">
+  {% include nav.html %}
+<header>
+    <article style="padding-top: 50px;">
+            <div>
+                <h2>{{ page.title }}</h2>
+                <span><i class="icon-clock"></i><time datetime="{{page.date|date:"%F"}}">{{page.date|date:"%b %d, %Y"}}</time></span><br/>
+                <span class="category"><i class="icon-tag"></i> {{ page.categories | category_links }}</span><br/>
+                <span class="author"><i class="icon-user"></i> {% if page.author %}{{page.author}}{% else %}{{site.author}}{% endif%}</span>
+            </div>
+
+            <div class="entry">{{ content }}</div>
+
+
+    </article>
+</header>
+  {% include contact.html %}
+  {% include scripts.html %}
+</body>
+
+</html>
