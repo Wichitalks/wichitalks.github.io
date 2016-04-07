@@ -7,6 +7,7 @@ url: "" # the base hostname & protocol for your site
 
 twitter_username: wichitalks
 github_username: wichitalks
+facebook_username: wichitalks
 
 # Build settings
 markdown: kramdown
