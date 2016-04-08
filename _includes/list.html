@@ -1,17 +1,17 @@
-<section>
+<section id="list" class="list">
   <div class="container">
     <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 text-center">
+        <div class="col-lg-12 text-center">
           <h2 class="section-heading">Watch Previous Wichitalks</h2>
           <hr class="primary">
           <ul>
           {% for post in site.posts %}
-            <li class="previous col-lg-4">
-              <a href="{{ post.url }}">
-                <!-- <img src='{{ post.image }}'> -->
+            <a href="{{ post.url }}">
+              <li class="previous col-lg-3">
+                <!-- might make this an inline style background image <img src='{{ post.image }}'> -->
                 {{ post.title }}
-              </a>
-            </li>
+              </li>
+            </a>
           {% endfor %}
           </ul>
         </div>

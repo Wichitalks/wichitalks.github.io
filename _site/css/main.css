@@ -316,5 +316,12 @@ body {
   height: 100%; }
 
 li.previous {
-  background: #833103;
-  list-style-type: none; }
+  background: #F05F40;
+  list-style-type: none;
+  height: 125px;
+  padding: 3%;
+  color: rgba(255, 255, 255, 0.95);
+  border: #ffffff solid 1px; }
+
+.list ul {
+  padding: 0; }
