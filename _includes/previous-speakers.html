@@ -1,20 +1,55 @@
-<section id="previous-speakers" class="list">
-  <div class="container">
-    <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading">Watch Previous Wichitalks</h2>
-          <hr class="primary">
-          <ul>
-          {% for post in site.posts %}
-            <a href="{{ post.url }}">
-              <li class="previous col-lg-3">
-                <-- might make this an inline style background image <img src='{{ post.image }}'> -->
-                {{ post.title }}
-              </li>
+<section class="list" id="previous-speakers">
+  <div class="container-fluid">
+    <div class="row no-gutter">
+      <h2 class="section-heading text-center">Wichitalks at Central Standard Brewing</h2>
+      <h3 class="text-center">April 13, 2016</h3>
+      <hr class="primary">
+      {% for post in site.posts %}
+        {% if post.event == 20160413 %}
+          <div class="col-lg-4 col-sm-6">
+            <a href="{{ post.url }}" class="portfolio-box">
+              <img src="{{ post.image }}" class="img-responsive" alt="{{ post.speaker }}">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    {{ post.speaker }}<br>on
+                  </div>
+                  <div class="project-name">
+                    {{ post.title }}
+                  </div>
+                </div>
+              </div>
             </a>
-          {% endfor %}
-          </ul>
-        </div>
-      </div>
+          </div>
+          {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+  <br><br>
+  <div class="container-fluid">
+    <div class="row no-gutter">
+      <h2 class="section-heading text-center">Wichitalks at The Labor Party</h2>
+      <h3 class="text-center">January 29, 2016</h3>
+      <hr class="primary">
+      {% for post in site.posts %}
+        {% if post.event == 20160129 %}
+          <div class="col-lg-4 col-sm-6">
+            <a href="{{ post.url }}" class="portfolio-box">
+              <img src="{{ post.image }}" class="img-responsive" alt="{{ post.speaker }}">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    {{ post.speaker }}<br>on
+                  </div>
+                  <div class="project-name">
+                    {{ post.title }}
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          {% endif %}
+      {% endfor %}
+    </div>
   </div>
 </section>
