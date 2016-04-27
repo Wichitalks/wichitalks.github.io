@@ -3,7 +3,7 @@ layout: interior
 title: Fair Trade
 speaker: Claude Puntel-Sessions
 permalink: claude-puntel-sessions
-image: img/20160129/claude-puntel-sessions.jpg
+image: img/20160129/claude_puntel_sessions.jpg
 event: 20160129
 ---
 

@@ -3,7 +3,7 @@ layout: interior
 title: Big Data and Machine Learning
 speaker: Jean Garcia Gonzalez
 permalink: jean-garcia-gonzalez
-image: img/20160129/jean_gonzalez.jpg
+image: img/20160129/jean_garcia.jpg
 event: 20160129
 ---
 

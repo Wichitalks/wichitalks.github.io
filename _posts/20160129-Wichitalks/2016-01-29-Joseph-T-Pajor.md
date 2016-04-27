@@ -3,7 +3,7 @@ layout: interior
 title: What is Ham Radio and Why Should I Care?
 speaker: Joseph T. Pajor
 permalink: joseph-t-pajor
-image: img/20160129/joseph_pajor.png
+image: img/20160129/joseph_pajor.jpg
 event: 20160129
 ---
 

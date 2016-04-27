@@ -3,7 +3,7 @@ layout: interior
 title: You've Failed!
 speaker: Kenton Hansen
 permalink: kenton-hansen
-image: img/20160129/kenton_hansen.png
+image: img/20160129/kenton_hansen.jpg
 event: 20160129
 ---
 
