@@ -7,4 +7,4 @@ image: img/20160413/joshua_klinger.jpg
 event: 20160413
 ---
 
-<div class='embed-container'><iframe src='https://www.youtube.com/embed/g--f6W__QWI' frameborder='0' allowfullscreen></iframe></div>
+<div class='embed-container'><iframe src='https://www.youtube.com/embed/u34g4zU58Kw' frameborder='0' allowfullscreen></iframe></div>
