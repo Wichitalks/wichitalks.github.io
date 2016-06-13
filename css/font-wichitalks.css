@@ -27,7 +27,8 @@ g: Tripodal
   src: url('../fonts/WichiTalks.eot');
 }
 
-i {
+/* Removed this section that was causing the <i> tag to be messed up. */
+/*i {
   font-family: 'WichiTalksEOT', 'WichiTalksTTF', 'WichiTalksSVG';
   margin: 0 0 30px 0;
   text-rendering: optimizeLegibility;
@@ -36,7 +37,7 @@ i {
   -ms-font-feature-settings: "kern";
   -webkit-font-feature-settings: "kern";
   -o-font-feature-settings: "kern";
-}
+}*/
 
 .fw {
   display: inline-block;
