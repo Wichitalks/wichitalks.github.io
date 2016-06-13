@@ -6,26 +6,61 @@
 <body id="page-top">
   {% include nav-internal.html %}
 <header>
-    <article style="padding-top: 50px;">
-            <div>
-                <h2>{{ page.speaker }} - {{ page.title }}</h2>
-                <span>
-                  <i class="icon-clock"></i>
-                  <time datetime="{{page.date|date:"%F"}}">{{page.date|date:"%b %d, %Y"}}</time>
-                </span>
-                <br/>
-                <span class="category"><i class="icon-tag"></i> {{ page.categories | category_links }}</span><br/>
-                <span class="author"><i class="icon-user"></i>
-                  {% if page.author %}
-                    {{page.author}}
-                  {% else %}
-                    {{site.author}}
-                  {% endif%}
-                </span>
-            </div>
+  <article style="padding-top: 50px;">
+    <div>
+      <h3>{{ page.speaker }}</h3><br><h2>{{ page.title }}</h2>
+      <span>
+        <i class="icon-clock"></i>
+        <time datetime="{{page.date|date:"%F"}}">{{page.date|date:"%b %d, %Y"}}</time>
+      </span>
+      <br/>
+      <span class="category"><i class="icon-tag"></i> {{ page.categories | category_links }}</span><br/>
+      <span class="author"><i class="icon-user"></i>
+        {% if page.author %}
+          {{page.author}}
+        {% else %}
+          {{site.author}}
+        {% endif%}
+      </span>
+    </div>
 
-            <div class="entry">{{ content }}</div>
-    </article>
+    <!-- <div class="entry">{{ content }}</div> -->
+  </article>
+  <div class='embed-container'>
+    <iframe src='https://www.youtube.com/embed/{{ page.video }}' frameborder='0' allowfullscreen></iframe>
+  </div>
+
+  <section class="bg-dark" id="events">
+    <div class="container text-center">
+      <div class="col-lg-6 col-sm-8 col-lg-offset-3 col-sm-offset-2">
+        <p>
+          {{ page.about }}<br><br>
+          <strong>Favorite Thing About Wichita:</strong><br>
+          <i>“{{ page.favorite }}”</i><br><br>
+          <strong>Contact:</strong><br>
+          {% if page.twitter %}
+            <a href="https://twitter.com/{{ page.twitter }}" target="_blank">@{{ page.twitter }}</a><br>
+          {% endif %}
+          {% if page.facebook %}
+            <a href="https://facebook.com/{{ page.facebook }}" target="_blank">{{ page.facebook }}</a><br>
+          {% endif %}
+          {% if page.linkedin %} <!-- Check this website address, it may not be correct for LinkedIn -->
+            <a href="https://linkedin.com/user/{{ page.linkedin }}">{{ page.linkedin }}</a><br>
+          {% endif %}
+          {% if page.website %}
+            <a href="http://{{ page.website }}">{{ page.website }}</a><br>
+          {% endif %}
+          {% if page.email %}
+            <a href="mailto:{{ page.email }}">{{ page.email }}</a><br>
+          {% endif %}
+          {% if page.telephone %}
+            <a href="tel:{{ page.telephone }}">{{ page.telephone }}</a><br>
+          {% endif %}
+        </p>
+      </div>
+    </div>
+  </section>
+
 </header>
   {% include contact.html %}
   {% include scripts.html %}
