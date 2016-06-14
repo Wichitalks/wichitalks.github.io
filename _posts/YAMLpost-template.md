@@ -10,6 +10,7 @@ favorite:
 about: 
 twitter: 
 facebook: 
+instagram: 
 linkedin: 
 website: 
 email: 
