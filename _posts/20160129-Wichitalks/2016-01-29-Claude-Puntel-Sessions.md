@@ -1,6 +1,6 @@
 ---
 layout: interior
-title: From Wichi-What To Wichi-WOW
+title: Wichita rich cross culture, going from Wichi…WHAT? To Wichi…WOW!
 speaker: Claude Puntel-Sessions
 permalink: claude-puntel-sessions
 image: img/20160129/claude_puntel_sessions.jpg

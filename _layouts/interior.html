@@ -8,7 +8,7 @@
 <header>
   <article style="padding-top: 50px;">
     <div>
-      <h3>{{ page.speaker }}</h3><br><h2>{{ page.title }}</h2>
+      <h3>{{ page.speaker }}</h3><hr><h2>{{ page.title }}</h2>
       <span>
         <i class="icon-clock"></i>
         <time datetime="{{page.date|date:"%F"}}">{{page.date|date:"%b %d, %Y"}}</time>
@@ -47,25 +47,52 @@
           <i>“{{ page.favorite }}”</i><br><br>
           <strong>Contact:</strong><br>
           {% if page.twitter %}
-            <a href="https://twitter.com/{{ page.twitter }}" target="_blank">@{{ page.twitter }}</a><br>
+            <a href="https://twitter.com/{{ page.twitter }}" target="_blank">
+              <i class="fa fa-twitter wow bounceIn text-primary" data-wow-delay=".1s"></i>
+              @{{ page.twitter }}
+            </a><br>
           {% endif %}
           {% if page.facebook %}
-            <a href="https://facebook.com/{{ page.facebook }}" target="_blank">{{ page.facebook }}</a><br>
+            <a href="https://facebook.com/{{ page.facebook }}" target="_blank">
+              <i class="fa fa-facebook wow bounceIn text-primary" data-wow-delay=".1s"></i>
+              {{ page.facebook }}
+            </a><br>
           {% endif %}
           {% if page.instagram %}
-            <a href="https://www.instagram.com/{{ page.instagram }}" target="_blank">{{ page.instagram }}</a><br>
+            <a href="https://www.instagram.com/{{ page.instagram }}" target="_blank">
+              <i class="fa fa-instagram wow bounceIn text-primary" data-wow-delay=".1s"></i>
+              {{ page.instagram }}
+            </a><br>
           {% endif %}
-          {% if page.linkedin %} <!-- Check this website address, it may not be correct for LinkedIn -->
-            <a href="https://linkedin.com/in/{{ page.linkedin }}" target="_blank">{{ page.linkedin }}</a><br>
+          {% if page.linkedin %}
+            <a href="https://linkedin.com/in/{{ page.linkedin }}" target="_blank">
+              <i class="fa fa-linkedin wow bounceIn text-primary" data-wow-delay=".1s"></i>
+              {{ page.linkedin }}
+            </a><br>
+          {% endif %}
+          {% if page.google %}
+            <a href="https://plus.google.com/+{{ page.google }}" target="_blank">
+              <i class="fa fa-google-plus wow bounceIn text-primary" data-wow-delay=".1s"></i>
+              {{ page.google }}
+            </a><br>
           {% endif %}
           {% if page.website %}
-            <a href="http://{{ page.website }}" target="_blank">{{ page.website }}</a><br>
+            <a href="http://{{ page.website }}" target="_blank">
+              <i class="fa fa-home wow bounceIn text-primary" data-wow-delay=".1s"></i>
+              {{ page.website }}
+            </a><br>
           {% endif %}
           {% if page.email %}
-            <a href="mailto:{{ page.email }}" target="_blank">{{ page.email }}</a><br>
+            <a href="mailto:{{ page.email }}" target="_blank">
+              <i class="fa fa-envelope wow bounceIn text-primary" data-wow-delay=".1s"></i>
+              {{ page.email }}
+            </a><br>
           {% endif %}
           {% if page.telephone %}
-            <a href="tel:{{ page.telephone }}" target="_blank">{{ page.telephone }}</a><br>
+            <a href="tel:{{ page.telephone }}" target="_blank">
+              <i class="fa fa-phone wow bounceIn text-primary" data-wow-delay=".1s"></i>
+              {{ page.telephone }}
+            </a><br>
           {% endif %}
         </p>
       </div>

@@ -12,6 +12,7 @@ twitter:
 facebook: 
 instagram: 
 linkedin: 
+google: 
 website: 
 email: 
 telephone: 
