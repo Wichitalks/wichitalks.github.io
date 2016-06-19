@@ -259,12 +259,24 @@ header {
             }
         }
     }
-    &:hover {
+    // Begin Testing
+
+    @media(max-width:768px) {
         .portfolio-box-caption {
-            opacity: 1;
+            opacity: 0.85;
+            color: white;
+            .portfolio-box-caption-content {
+                text-align: left;
+            }
         }
     }
+
     @media (min-width: 768px) {
+        &:hover {
+            .portfolio-box-caption {
+                opacity: 1;
+            }
+        }
         .portfolio-box-caption {
             .portfolio-box-caption-content {
                 .project-category {
@@ -276,6 +288,27 @@ header {
             }
         }
     }
+
+    // End Testing
+
+
+    // &:hover {
+    //     .portfolio-box-caption {
+    //         opacity: 1;
+    //     }
+    // }
+    // @media (min-width: 768px) {
+    //     .portfolio-box-caption {
+    //         .portfolio-box-caption-content {
+    //             .project-category {
+    //                 font-size: 16px;
+    //             }
+    //             .project-name {
+    //                 font-size: 22px;
+    //             }
+    //         }
+    //     }
+    // }
 }
 
 .call-to-action {
