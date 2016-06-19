@@ -208,9 +208,15 @@ header {
         font-size: 14px; }
       .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
         font-size: 18px; }
-  .portfolio-box:hover .portfolio-box-caption {
-    opacity: 1; }
+  @media (max-width: 768px) {
+    .portfolio-box .portfolio-box-caption {
+      opacity: 0.85;
+      color: white; }
+      .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
+        text-align: left; } }
   @media (min-width: 768px) {
+    .portfolio-box:hover .portfolio-box-caption {
+      opacity: 1; }
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
       font-size: 16px; }
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
