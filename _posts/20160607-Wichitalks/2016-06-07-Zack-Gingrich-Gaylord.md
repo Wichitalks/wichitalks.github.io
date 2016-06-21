@@ -1,7 +1,7 @@
 ---
 layout: interior
 title: Life Is Easy, Chess Is Hard
-speaker: Zack Gringrich-Gaylord
+speaker: Zack Gingrich-Gaylord
 permalink: zack-gingrich-gaylord
 image: img/20160607/zack_gaylord.jpg
 event: 20160607
