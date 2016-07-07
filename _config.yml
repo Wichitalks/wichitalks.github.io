@@ -1,13 +1,18 @@
 # Site settings
 title: Wichitalks
-email: wichitalks@gmail.com
-description: No Pitches. Only Passion.
+description: An eclectic and insightful series of lightning talks with a twist. Passion presentations not business pitches. Attendance is free, but space is limited!
+slogan: No Pitches | Only Passion
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
+# head tag info for the site
+
+
+# Social Media and Contact info
 twitter_username: wichitalks
 github_username: wichitalks
 facebook_username: wichitalks
+email: wichitalks@gmail.com
 
 # Build settings
 markdown: kramdown
