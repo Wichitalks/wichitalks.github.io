@@ -11,7 +11,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@{{ site.twitter_username }}">
     <meta name="twitter:title" content={% if page.title %}"{{ page.title }}"{% else %}"{{ site.title }}"{% endif %}>
-    <meta name="twitter:description" content="{{ site.description }}">
+    <meta name="twitter:description" content={% if page.about %}"{{ page.about }}"{% else %}"{{ site.description }}"{% endif %}>
     <meta name="twitter:creator" content="@{{ site.twitter_username }}">
     <!-- Twitter Summary card images must be at least 120x120px -->
     <meta name="twitter:image" content={% if page.image %}"http://wichitalks.com/{{ page.image }}"{% else %}"http://wichitalks.com/img/WSU_banner.jpg"{% endif %}>
