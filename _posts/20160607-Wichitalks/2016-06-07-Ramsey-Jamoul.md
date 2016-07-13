@@ -5,7 +5,7 @@ speaker: Ramsey Jamoul
 permalink: ramsey-jamoul
 image: img/20160607/ramsey_jamoul.jpg
 event: 20160607
-video: 
+video: hGs-YyzR0hY
 favorite: Wichita has developing communities in entrepreneurial, gaming and technical areas; that’s me in a nutshell.
 about: Ramsey, a recent WSU graduate, is apart Wichita eSports. He loves to game, program and strives to be entrepreneur.
 twitter: 
