@@ -259,8 +259,7 @@ header {
             }
         }
     }
-    // Begin Testing
-
+    
     @media(max-width:768px) {
         .portfolio-box-caption {
             opacity: 0.85;
@@ -288,27 +287,6 @@ header {
             }
         }
     }
-
-    // End Testing
-
-
-    // &:hover {
-    //     .portfolio-box-caption {
-    //         opacity: 1;
-    //     }
-    // }
-    // @media (min-width: 768px) {
-    //     .portfolio-box-caption {
-    //         .portfolio-box-caption-content {
-    //             .project-category {
-    //                 font-size: 16px;
-    //             }
-    //             .project-name {
-    //                 font-size: 22px;
-    //             }
-    //         }
-    //     }
-    // }
 }
 
 .call-to-action {
