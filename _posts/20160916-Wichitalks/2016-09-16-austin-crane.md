@@ -3,7 +3,7 @@ layout: interior
 title: Silicon Prairie - Amber Waves Of Tech
 speaker: Austin Crane
 permalink: austin_crane
-image: img/20160607/alex_pemberton.jpg
+image: img/20160916/austinCrane.jpg
 event: 20160916
 video: 
 favorite: My roots grow deep here

@@ -1,6 +1,33 @@
 <section class="list" id="previous-speakers">
   <div class="container-fluid">
     <div class="row no-gutter">
+      <h2 class="section-heading text-center">Wichitalks WSU hosted by Shocker Startup</h2>
+      <h3 class="text-center">September 16, 2016</h3>
+      <hr class="primary">
+      {% for post in site.posts %}
+        {% if post.event == 20160916 %}
+          <div class="col-lg-4 col-sm-6">
+            <a href="{{ post.url }}" class="portfolio-box">
+              <img src="{{ post.image }}" class="img-responsive" alt="{{ post.speaker }}">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    {{ post.speaker }}<br>on
+                  </div>
+                  <div class="project-name">
+                    {{ post.title }}
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+  <br><br>
+  <div class="container-fluid">
+    <div class="row no-gutter">
       <h2 class="section-heading text-center">Wichitalks Riverfest at the Wichita Boathouse</h2>
       <h3 class="text-center">June 7, 2016</h3>
       <hr class="primary">

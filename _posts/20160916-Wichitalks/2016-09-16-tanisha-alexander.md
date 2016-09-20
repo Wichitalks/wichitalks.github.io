@@ -8,7 +8,7 @@ event: 20160916
 video: 
 favorite: My favorite thing about Wichita is the calmness. I like that the crime rate is lower, and I like that it is slower than other cities I have lived in.
 about: Tanisha Alexander was born in Wichita but raised in Tulsa,OK. She moved to Wichita to live 4 1/2 years ago. Ever since she has been excelling in life.
-twitter: thahairfairy
+twitter: HairFairyStudio
 facebook: 
 instagram: 
 linkedin: 
