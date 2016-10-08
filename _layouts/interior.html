@@ -45,54 +45,56 @@
           <strong>Favorite Thing About Wichita:</strong><br>
           <i>“{{ page.favorite }}”</i><br><br>
           <strong>Contact:</strong><br>
-          {% if page.twitter %}
-            <a href="https://twitter.com/{{ page.twitter }}" target="_blank">
-              <i class="fa fa-twitter wow bounceIn text-primary" data-wow-delay=".1s"></i>
-              @{{ page.twitter }}
-            </a><br>
-          {% endif %}
-          {% if page.facebook %}
-            <a href="https://facebook.com/{{ page.facebook }}" target="_blank">
-              <i class="fa fa-facebook wow bounceIn text-primary" data-wow-delay=".1s"></i>
-              {{ page.facebook }}
-            </a><br>
-          {% endif %}
-          {% if page.instagram %}
-            <a href="https://www.instagram.com/{{ page.instagram }}" target="_blank">
-              <i class="fa fa-instagram wow bounceIn text-primary" data-wow-delay=".1s"></i>
-              {{ page.instagram }}
-            </a><br>
-          {% endif %}
-          {% if page.linkedin %}
-            <a href="https://linkedin.com/in/{{ page.linkedin }}" target="_blank">
-              <i class="fa fa-linkedin wow bounceIn text-primary" data-wow-delay=".1s"></i>
-              {{ page.linkedin }}
-            </a><br>
-          {% endif %}
-          {% if page.google %}
-            <a href="https://plus.google.com/+{{ page.google }}" target="_blank">
-              <i class="fa fa-google-plus wow bounceIn text-primary" data-wow-delay=".1s"></i>
-              {{ page.google }}
-            </a><br>
-          {% endif %}
-          {% if page.website %}
-            <a href="http://{{ page.website }}" target="_blank">
-              <i class="fa fa-home wow bounceIn text-primary" data-wow-delay=".1s"></i>
-              {{ page.website }}
-            </a><br>
-          {% endif %}
-          {% if page.email %}
-            <a href="mailto:{{ page.email }}" target="_blank">
-              <i class="fa fa-envelope wow bounceIn text-primary" data-wow-delay=".1s"></i>
-              {{ page.email }}
-            </a><br>
-          {% endif %}
-          {% if page.telephone %}
-            <a href="tel:{{ page.telephone }}" target="_blank">
-              <i class="fa fa-phone wow bounceIn text-primary" data-wow-delay=".1s"></i>
-              {{ page.telephone }}
-            </a><br>
-          {% endif %}
+          <div class="container text-left">
+            {% if page.twitter %}
+              <a href="https://twitter.com/{{ page.twitter }}" target="_blank">
+                <i class="fa fa-twitter wow bounceIn text-primary" data-wow-delay=".1s"></i>
+                @{{ page.twitter }}
+              </a><br>
+            {% endif %}
+            {% if page.facebook %}
+              <a href="https://facebook.com/{{ page.facebook }}" target="_blank">
+                <i class="fa fa-facebook wow bounceIn text-primary" data-wow-delay=".1s"></i>
+                {{ page.facebook }}
+              </a><br>
+            {% endif %}
+            {% if page.instagram %}
+              <a href="https://www.instagram.com/{{ page.instagram }}" target="_blank">
+                <i class="fa fa-instagram wow bounceIn text-primary" data-wow-delay=".1s"></i>
+                {{ page.instagram }}
+              </a><br>
+            {% endif %}
+            {% if page.linkedin %}
+              <a href="https://linkedin.com/in/{{ page.linkedin }}" target="_blank">
+                <i class="fa fa-linkedin wow bounceIn text-primary" data-wow-delay=".1s"></i>
+                {{ page.linkedin }}
+              </a><br>
+            {% endif %}
+            {% if page.google %}
+              <a href="https://plus.google.com/+{{ page.google }}" target="_blank">
+                <i class="fa fa-google-plus wow bounceIn text-primary" data-wow-delay=".1s"></i>
+                {{ page.google }}
+              </a><br>
+            {% endif %}
+            {% if page.website %}
+              <a href="http://{{ page.website }}" target="_blank">
+                <i class="fa fa-home wow bounceIn text-primary" data-wow-delay=".1s"></i>
+                {{ page.website }}
+              </a><br>
+            {% endif %}
+            {% if page.email %}
+              <a href="mailto:{{ page.email }}" target="_blank">
+                <i class="fa fa-envelope wow bounceIn text-primary" data-wow-delay=".1s"></i>
+                {{ page.email }}
+              </a><br>
+            {% endif %}
+            {% if page.telephone %}
+              <a href="tel:{{ page.telephone }}" target="_blank">
+                <i class="fa fa-phone wow bounceIn text-primary" data-wow-delay=".1s"></i>
+                {{ page.telephone }}
+              </a><br>
+            {% endif %}
+        </div>
         </p>
       </div>
     </div>
