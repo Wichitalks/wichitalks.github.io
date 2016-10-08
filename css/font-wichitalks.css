@@ -1,0 +1,54 @@
+/* Font designed by Barrett Morgan Design
+
+This font has icons in place of the lowercase letters a - g.
+
+a: wichitalks logo horizontal
+b: wichitalks logo vertical
+c: wichitalks bolt logo
+d: Keeper of the Plains
+e: Wind Spirit Gateway
+f: Paragon
+g: Tripodal
+
+*/
+
+@font-face {
+  font-family: 'WichiTalksSVG';
+  src: url('../fonts/WichiTalks.svg#WichiTalks') format('svg');
+}
+
+@font-face {
+  font-family: 'WichiTalksTTF';
+  src: url('../fonts/WichiTalks.ttf') format('truetype');
+} 
+
+@font-face {
+  font-family: 'WichiTalksEOT';
+  src: url('../fonts/WichiTalks.eot');
+}
+
+/* Removed this section that was causing the <i> tag to be messed up. */
+/*i {
+  font-family: 'WichiTalksEOT', 'WichiTalksTTF', 'WichiTalksSVG';
+  margin: 0 0 30px 0;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "kern";
+  -moz-font-feature-settings: "kern=1";
+  -ms-font-feature-settings: "kern";
+  -webkit-font-feature-settings: "kern";
+  -o-font-feature-settings: "kern";
+}*/
+
+.fw {
+  display: inline-block;
+  padding: 20px;
+  font: normal normal normal 14px/1 WichiTalks;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fw-4x {
+  font-size: 6em;
+}
