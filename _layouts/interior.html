@@ -41,7 +41,8 @@
     <div class="container text-center">
       <div class="col-lg-6 col-sm-8 col-lg-offset-3 col-sm-offset-2">
         <p>
-          {{ page.about }}<br><br>
+          {{ page.about | markdownify }}
+          <br><br>
           <strong>Favorite Thing About Wichita:</strong><br>
           <i>“{{ page.favorite }}”</i><br><br>
           <strong>Contact:</strong><br>
