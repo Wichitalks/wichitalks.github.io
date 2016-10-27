@@ -2,7 +2,7 @@
 layout: interior
 title: Millennials
 speaker: Dustin Thiry
-permalink: dustin-thiry
+permalink: dutin-thiry
 image: img/20160129/dustin_thiry.jpg
 event: 20160129
 video: _qju-JUlfZc
