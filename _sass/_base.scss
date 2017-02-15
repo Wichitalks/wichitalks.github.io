@@ -222,6 +222,14 @@ header {
     }
 }
 
+.sponsor {
+     width: 100px;
+     filter: grayscale(100%);
+    &:hover {
+        filter: grayscale(0%);
+    }
+}
+
 .portfolio-box {
     position: relative;
     display: block;
