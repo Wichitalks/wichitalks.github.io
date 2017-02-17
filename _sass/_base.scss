@@ -371,3 +371,10 @@ body {
 .embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 li.previous{ background: #F05F40; list-style-type: none; height: 125px; padding: 3%; color: rgba(255, 255, 255, 0.95); border: #ffffff solid 1px; }
 .list ul {padding: 0;}
+
+// Hiding a post on screens that are not tablets or mobile devices.
+.hide_on_large_screen {
+    @media (min-width: 1200px) {
+        display: none;
+    }
+}
