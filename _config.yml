@@ -16,3 +16,7 @@ email: info@wichitalks.com
 
 # Build settings
 markdown: kramdown
+
+# Collections
+collections:
+  - blog
