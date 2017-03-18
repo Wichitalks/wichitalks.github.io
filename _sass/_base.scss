@@ -211,6 +211,11 @@ header {
     margin-top: 0;
 }
 
+span.highlight {
+    background-color: $theme-primary;
+    color: white;
+}
+
 .service-box {
     max-width: 400px;
     margin: 50px auto 0;
