@@ -1,7 +1,7 @@
 ---
 title: Wichitalks Ethos
 anchor: Wichitalks-Ethos
-date: 20170319
+date: 20170406
 author: Kevin Falting
 published: true
 ---
