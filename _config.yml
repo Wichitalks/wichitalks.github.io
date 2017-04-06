@@ -1,6 +1,6 @@
 # Site settings
 title: Wichitalks
-description: An eclectic and insightful series of lightning talks with a twist. Passion presentations not business pitches. Attendance is free, but space is limited!
+description: An eclectic and insightful series of lightning talks with a twist.
 slogan: No Pitches | Only Passion
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
