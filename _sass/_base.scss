@@ -83,17 +83,27 @@ aside {
     margin-top: 6em;
     margin-bottom: 6em;
     border-radius: 0.1em;
+    @media (max-width: 650px) {
+            padding: 0;
+            width: 100%;
+        }
 
     h2 {
         text-align: center;
         font-size: 3em;
         padding: 10px;
+        @media (max-width: 650px) {
+            padding: 0;
+        }
     }
 
     p {
         padding-left: 2em;
         padding-right: 2em;
         text-align: justify;
+        @media (max-width: 650px) {
+            padding: 0;
+        }
     }
 }
 
