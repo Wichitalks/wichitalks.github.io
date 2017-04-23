@@ -8,21 +8,21 @@
   <header style="position: fixed; z-index: -5;"></header>
   <article style="padding-top: 50px;" class="container-fluid">
 		{% assign sorted = (site.blog | sort: 'date') | reverse %}
-       	{% for blog in sorted %}
+     	{% for blog in sorted %}
         {% if blog.published == false %}
           {% continue %}
         {% endif %}
         <div class="reading col-md-10 col-sm-10 col-md-offset-1 col-sm-offset-1">
-       		<div id="#{{ blog.anchor }}" class="col-md-10 col-sm-10 col-md-offset-1 col-sm-offset-1">
-				<h2>{{ blog.title}}</h2>
-        <p title="click to copy" class="copy-to-clipboard" onclick="copyToClipboard('<span>http://www.wichitalks.com/blog#{{blog.anchor}}</span>')" style="text-align: right; font-size: 0.75em; color: grey;">wichitalks.com/blog#{{blog.anchor}}</p> <!-- I had to wrap the argument in a <span> to 'wake up' the liquid syntax so that it would render properly. -->
-				<p>{{ blog.content }}</p>
-				<br>
-				<p style="color: grey; font-size: 0.75em; text-align: center;">{{ blog.author }}{% if blog.author %} | {% endif %}{{ blog.date | date_to_long_string }}</p><br>
-				<hr>
-			</div>
-      </div>
-       	{% endfor %}
+       		<section id="#{{ blog.anchor }}" class="col-md-10 col-sm-10 col-md-offset-1 col-sm-offset-1">
+				    <h2>{{ blog.title}}</h2>
+            <p title="click to copy" class="copy-to-clipboard" onclick="copyToClipboard('<span>http://www.wichitalks.com/blog#{{blog.anchor}}</span>')" style="text-align: right; font-size: 0.75em; color: grey;">wichitalks.com/blog#{{blog.anchor}}</p> <!-- I had to wrap the argument in a <span> to 'wake up' the liquid syntax so that it would render properly. -->
+				    <p>{{ blog.content }}</p>
+				    <br>
+				    <p style="color: grey; font-size: 0.75em; text-align: center;">{{ blog.author }}{% if blog.author %} | {% endif %}{{ blog.date | date_to_long_string }}</p><br>
+				    <hr>
+          </section>
+        </div>
+     	{% endfor %}
   </article>
   {% include contact.html %}
   {% include scripts.html %}
