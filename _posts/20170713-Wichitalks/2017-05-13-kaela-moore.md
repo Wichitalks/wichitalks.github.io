@@ -1,8 +1,8 @@
 ---
 layout: interior
 title: Keep Talking Til It Makes Sense
-speaker: Kaela Moore
-permalink: kaela-moore
+speaker: Kaela Prall-Moore
+permalink: kaela-prall-moore
 image: img/20170713/kaelaMoore.jpg
 event: 20170713
 video: 
