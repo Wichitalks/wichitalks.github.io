@@ -8,13 +8,13 @@
 <header>
   <article style="padding-top: 50px;">
     <div>
+      <div class="container text-center">
+        <div class="col-lg-6 col-sm-8 col-lg-offset-3 col-sm-offset-2">
+          <img src="{{ page.image }}" class="img-circle img-responsive" style="padding-top: 2em;">
+        </div>
+      </div>
       <h3>{{ page.speaker }}</h3><hr><h2>{{ page.title }}</h2>
-      <span>
-        <i class="icon-clock"></i>
-        <time datetime="{{page.date|date:"%F"}}">{{page.date|date:"%b %d, %Y"}}</time>
-      </span>
       <br/>
-      <span class="category"><i class="icon-tag"></i> {{ page.categories | category_links }}</span><br/>
       <span class="author"><i class="icon-user"></i>
         {% if page.author %}
           {{page.author}}
@@ -30,14 +30,15 @@
       <iframe src='https://www.youtube.com/embed/{{ page.video }}' frameborder='0' allowfullscreen></iframe>
     </div>
   {% else %}
-    <hr class="light">
-    <div>
-      <h1>Video Coming Soon</h1>
+    <div class="container text-center" style="padding-bottom: 2em;">
+      <div class="col-lg-6 col-sm-8 col-lg-offset-3 col-sm-offset-2">
+        <p>{{ page.speaker }} is presenting at our next event.</p>
+        <a href="https://wichitalks.eventbrite.com" target="_blank" class="btn btn-primary btn-xl page-scroll">Grab your ticket!</a>
+      </div>
     </div>
-    <hr class="light">
   {% endif %}
 
-  <section class="bg-dark" id="events">
+  <section class="bg-dark">
     <div class="container text-center">
       <div class="col-lg-6 col-sm-8 col-lg-offset-3 col-sm-offset-2">
         <p>
@@ -102,6 +103,7 @@
   </section>
 
 </header>
+  {% include events.html %}
   {% include previous-speakers-front.html %}
   {% include contact.html %}
   {% include scripts.html %}
