@@ -3,7 +3,7 @@ layout: interior
 title: Kill Your Darlings - Successfully Helping Others Succeed
 speaker: Megan Lovely
 permalink: megan-lovely
-image: img/20170713/SpeakerPromoImage.png
+image: img/20170713/meganLovely.jpg
 event: 20170713
 video: 
 favorite: My favorite thing about Wichita is how easy it is to make a difference. If you have an idea and the drive to do something about it, you can make things happen.
