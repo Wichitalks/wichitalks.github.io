@@ -1,7 +1,7 @@
 ---
 layout: interior
 title: We argued and couldn't agree on what to talk about, so now we are going to present our 4 favorite topics all at once.
-speaker: The Men's Scapbooking Club
+speaker: The Men's Scrapbooking Club
 permalink: mens-scrapbooking-club
 image: img/20170713/mensScrapbookingClub.jpg
 event: 20170713
