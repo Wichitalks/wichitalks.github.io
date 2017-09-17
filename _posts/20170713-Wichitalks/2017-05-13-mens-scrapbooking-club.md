@@ -5,7 +5,7 @@ speaker: The Men's Scrapbooking Club
 permalink: mens-scrapbooking-club
 image: img/20170713/mensScrapbookingClub.jpg
 event: 20170713
-video: 
+video: 0lJX6yaEMVk
 favorite: Merril Teller
 about: The Men's Scrapbooking Club is a Wichita-born absurdist sketch comedy and performance art group. Founded in 2004 or 2005, or 2003, but probably 2004... on second thought 2005 I think. That was an incomplete sentence.
 twitter: 
