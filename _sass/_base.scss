@@ -313,7 +313,7 @@ span.highlight {
             }
         }
     }
-    
+
     @media(max-width:768px) {
         .portfolio-box-caption {
             opacity: 0.85;
@@ -423,4 +423,12 @@ li.previous{ background: #F05F40; list-style-type: none; height: 125px; padding:
     @media (min-width: 1200px) {
         display: none;
     }
+}
+
+//interior page
+img.speaker-avatar {
+  object-fit:cover;
+  width:300px;
+  height:300px;
+  margin:2em auto 0 auto;
 }
