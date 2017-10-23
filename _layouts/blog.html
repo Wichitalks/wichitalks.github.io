@@ -7,7 +7,7 @@
   {% include nav-internal.html %}
   <header style="position: fixed; z-index: -5;"></header>
   <article style="padding-top: 50px;" class="container-fluid">
-		{% assign sorted = (site.blog | sort: 'date') | reverse %}
+		{% assign sorted = site.blog | sort: 'date' | reverse %}
      	{% for blog in sorted %}
         {% if blog.published == false %}
           {% continue %}
