@@ -71,10 +71,6 @@ aside {
     padding: 50px 0;
 }
 
-.no-padding {
-    padding: 0;
-}
-
 // Blog page formatting for reading area
 .reading {
     background-color: white;
@@ -250,6 +246,7 @@ header {
 
 .section-heading {
     margin-top: 0;
+    text-align: center;
 }
 
 span.highlight {
@@ -313,7 +310,7 @@ span.highlight {
             }
         }
     }
-    
+
     @media(max-width:768px) {
         .portfolio-box-caption {
             opacity: 0.85;
@@ -340,12 +337,6 @@ span.highlight {
                 }
             }
         }
-    }
-}
-
-.call-to-action {
-    h2 {
-        margin: 0 auto 20px;
     }
 }
 
