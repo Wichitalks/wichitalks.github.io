@@ -415,3 +415,11 @@ li.previous{ background: #F05F40; list-style-type: none; height: 125px; padding:
         display: none;
     }
 }
+
+//interior page
+img.speaker-avatar {
+  object-fit:cover;
+  width:300px;
+  height:300px;
+  margin:2em auto 0 auto;
+}
