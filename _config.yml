@@ -11,9 +11,12 @@ url: "" # the base hostname & protocol for your site
 tickets: https://wichitalks.eventbrite.com
 
 # Social Media and Contact info
-twitter_username: wichitalks
-github_username: wichitalks
-facebook_username: wichitalks
+social:
+facebook: wichitalks
+github: wichitalks
+instagram: wichitalks
+linkedin: 22333834
+twitter: wichitalks
 email: info@wichitalks.com
 
 # Build settings
