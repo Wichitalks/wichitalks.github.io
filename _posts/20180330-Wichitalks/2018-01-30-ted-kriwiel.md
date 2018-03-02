@@ -1,6 +1,6 @@
 ---
 layout: interior
-title: Storytelling With Numbers
+title: The Stories Our Numbers Tell Us
 speaker: Ted Kriwiel
 permalink: ted-kriwiel
 image: img/20180330/tedKriwiel.jpg
