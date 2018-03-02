@@ -2,163 +2,36 @@
     <div class="container text-center">
         <div class="col-lg-6 col-sm-8 col-lg-offset-3 col-sm-offset-2">
             <h2>Wichitalks at Roxy's Speakers!</h2>
-            <h3>July 13</h3>
+            <h3>March 30</h3>
             <h4>Doors at 6. Talks at 7.</h4>
             <br>
         </div>
     </div>
+
     <div class="container-fluid">
         <div class="row no-gutter">
-            <div class="col-lg-4 col-sm-6">
-                <a href="/gregg-bolinger" class="portfolio-box">
-                    <img src="img/20170713/greggBolinger.jpg" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Gregg Bolinger<br>on
+            <h2 class="section-heading text-center"><span class="highlight">Wichitalks at Roxy's</span></h2>
+            <h3 class="text-center"><span class="highlight">March 30, 2018</span></h3>
+            <hr class="primary">
+            {% for post in site.posts %}
+                {% if post.event == 20180330 %}
+                    <div class="col-lg-4 col-sm-6">
+                        <a href="{{ post.url }}" class="portfolio-box">
+                        <img src="{{ post.image }}" class="img-responsive" alt="{{ post.speaker }}">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        {{ post.speaker }}<br>on
+                                    </div>
+                                    <div class="project-name">
+                                        {{ post.title }}
+                                    </div>
+                                </div>
                             </div>
-                            <div class="project-name">
-                                Tabletop Gaming is the Trendiest Thing You Never Do but Should
-                            </div>
-                        </div>
+                        </a>
                     </div>
-                </a>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <a href="/todd-ramsey" class="portfolio-box">
-                    <img src="img/20170713/toddRamsey.jpg" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Todd Ramsey<br>on
-                            </div>
-                            <div class="project-name">
-                                Passion Is Privilege - Paychecks Aren't The Enemy
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <a href="/barb-myers" class="portfolio-box">
-                    <img src="img/20170713/barbMyers.jpg" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Barb Myers<br>on
-                            </div>
-                            <div class="project-name">
-                                The Life and Times of Highland Cemetery
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <a href="/grant-boyd" class="portfolio-box">
-                    <img src="img/20170713/grantBoyd.jpg" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Grant Boyd<br>on
-                            </div>
-                            <div class="project-name">
-                                Wichita - A Truly Global Capital
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <a href="/kaela-prall-moore" class="portfolio-box">
-                    <img src="img/20170713/kaelaMoore.jpg" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Kaela Prall-Moore<br>on
-                            </div>
-                            <div class="project-name">
-                                Keep Talking Til It Makes Sense
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <a href="/larissa-lawrie" class="portfolio-box">
-                    <img src="img/20170713/laRissaLawrie.jpg" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                LaRissa Lawrie<br>on
-                            </div>
-                            <div class="project-name">
-                                Cultivating Connection and Empathy through Communication
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <a href="/lon-smith" class="portfolio-box">
-                    <img src="img/20170713/lonSmith.jpg" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Lon Smith<br>on
-                            </div>
-                            <div class="project-name">
-                                Finding Answers - Critical Research in a Museum Setting
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <a href="/megan-lovely" class="portfolio-box">
-                    <img src="img/20170713/meganLovely.jpg" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Megan Lovely<br>on
-                            </div>
-                            <div class="project-name">
-                                Kill Your Darlings - Successfully Helping Others Succeed
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <a href="/mens-scrapbooking-club" class="portfolio-box">
-                    <img src="img/20170713/mensScrapbookingClub.jpg" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                The Men's Scrapbooking Club<br>on
-                            </div>
-                            <div class="project-name">
-                                We argued and couldn't agree on what to talk about, so now we are going to present our 4 favorite topics all at once.
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-4 col-lg-offset-4 col-sm-6">
-                <a href="/saad-syed" class="portfolio-box">
-                    <img src="img/20170713/saadSyed.jpg" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Saad Syed<br>on
-                            </div>
-                            <div class="project-name">
-                                The Nosy Photographer
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
+                {% endif %}
+            {% endfor %}
         </div>
     </div>
 </section>
