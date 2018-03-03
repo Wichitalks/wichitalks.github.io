@@ -415,3 +415,13 @@ li.previous{ background: #F05F40; list-style-type: none; height: 125px; padding:
         display: none;
     }
 }
+
+// contact section on presenter pages
+.contact-icons {
+    display: inline-block;
+    text-align: left;
+
+    a {
+        text-decoration: none;
+    }
+}

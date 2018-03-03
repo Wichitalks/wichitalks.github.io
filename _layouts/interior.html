@@ -32,8 +32,8 @@
   {% else %}
     <div class="container text-center" style="padding-bottom: 2em;">
       <div class="col-lg-6 col-sm-8 col-lg-offset-3 col-sm-offset-2">
-        <p>{{ page.speaker }}'s video will be posted soon!</p>
-        <a href="https://wichitalks.eventbrite.com" target="_blank" class="btn btn-primary btn-xl page-scroll">Grab your ticket!</a>
+        <p>{{ page.speaker }}'s video will be posted soon! In the meantime...</p>
+        <a href="{{ site.tickets }}" target="_blank" class="btn btn-primary btn-xl page-scroll">Grab your ticket!</a>
       </div>
     </div>
   {% endif %}
@@ -43,58 +43,58 @@
       <div class="col-lg-6 col-sm-8 col-lg-offset-3 col-sm-offset-2">
         <p>
           {{ page.about | markdownify }}
-          <br><br>
+          <br>
           <strong>Favorite Thing About Wichita:</strong><br>
           <i>“{{ page.favorite }}”</i><br><br>
           <strong>Contact:</strong><br>
-          <div style="display: inline-block; text-align: left">
+          <div class="contact-icons">
             {% if page.twitter %}
-              <a href="https://twitter.com/{{ page.twitter }}" target="_blank">
+              <a href="https://twitter.com/{{ page.twitter }}">
                 <i class="fa fa-twitter wow bounceIn text-primary" data-wow-delay=".1s"></i>
-                @{{ page.twitter }}
+                &emsp;@{{ page.twitter }}
               </a><br>
             {% endif %}
             {% if page.facebook %}
-              <a href="https://facebook.com/{{ page.facebook }}" target="_blank">
+              <a href="https://facebook.com/{{ page.facebook }}">
                 <i class="fa fa-facebook wow bounceIn text-primary" data-wow-delay=".1s"></i>
-                {{ page.facebook }}
+                &emsp;&nbsp;&nbsp;{{ page.facebook }}
               </a><br>
             {% endif %}
             {% if page.instagram %}
-              <a href="https://www.instagram.com/{{ page.instagram }}" target="_blank">
+              <a href="https://www.instagram.com/{{ page.instagram }}">
                 <i class="fa fa-instagram wow bounceIn text-primary" data-wow-delay=".1s"></i>
-                {{ page.instagram }}
+                &emsp;{{ page.instagram }}
               </a><br>
             {% endif %}
             {% if page.linkedin %}
-              <a href="https://linkedin.com/in/{{ page.linkedin }}" target="_blank">
+              <a href="https://linkedin.com/in/{{ page.linkedin }}">
                 <i class="fa fa-linkedin wow bounceIn text-primary" data-wow-delay=".1s"></i>
-                {{ page.linkedin }}
+                &emsp;{{ page.linkedin }}
               </a><br>
             {% endif %}
             {% if page.google %}
-              <a href="https://plus.google.com/+{{ page.google }}" target="_blank">
+              <a href="https://plus.google.com/+{{ page.google }}">
                 <i class="fa fa-google-plus wow bounceIn text-primary" data-wow-delay=".1s"></i>
-                {{ page.google }}
+                &emsp;{{ page.google }}
               </a><br>
             {% endif %}
             {% if page.website %}
-              <a href="http://{{ page.website }}" target="_blank">
+              <a href="http://{{ page.website }}">
                 <i class="fa fa-home wow bounceIn text-primary" data-wow-delay=".1s"></i>
-                {{ page.website }}
+                &emsp;{{ page.website }}
               </a><br>
             {% endif %}
             {% if page.email %}
-              <a href="mailto:{{ page.email }}" target="_blank">
+              <a href="mailto:{{ page.email }}">
                 <i class="fa fa-envelope wow bounceIn text-primary" data-wow-delay=".1s"></i>
-                {{ page.email }}
+                &emsp;{{ page.email }}
               </a><br>
             {% endif %}
             {% if page.telephone %}
-              <a href="tel:{{ page.telephone }}" target="_blank">
+              <a href="tel:{{ page.telephone }}">
                 <i class="fa fa-phone wow bounceIn text-primary" data-wow-delay=".1s"></i>
-                {{ page.telephone }}
-              </a><br>
+                &emsp;{{ page.telephone }}
+              </a>
             {% endif %}
         </div>
         </p>
