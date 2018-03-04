@@ -374,7 +374,30 @@ span.highlight {
 // Contact
 #contact .fa {
     color: $theme-dark;
-    font-size: 4em;
+}
+
+.twitter:hover {
+    color: #1da1f2 !important;
+}
+
+.facebook:hover {
+    color: #3b5998 !important;
+}
+
+.github:hover {
+    color: #4078c0 !important;
+}
+
+.instagram:hover {
+    color: #f56040 !important;
+}
+
+.linkedin:hover {
+    color: #0077b5 !important;
+}
+
+.email:hover {
+    color: $theme-primary !important;
 }
 
 // Extras
