@@ -1,6 +1,6 @@
 ---
 layout: interior
-title: It's time. Take your seat.
+title: It's Time. Take Your Seat.
 speaker: Thea Pajunen
 permalink: thea-pajunen
 image: img/20180330/theaPajunen.jpg
