@@ -41,13 +41,13 @@
   <section class="bg-dark">
     <div class="container text-center">
       <div class="col-lg-6 col-sm-8 col-lg-offset-3 col-sm-offset-2">
-        <p>
-          {{ page.about | markdownify }}
+        <!-- <p> -->
+          <p>{{ page.about | markdownify }}</p>
           <br>
           <strong>Favorite Thing About Wichita:</strong><br>
-          <i>“{{ page.favorite }}”</i><br><br>
+          <i style="font-size: 1.5em;">“{{ page.favorite }}”</i><br><br>
           <strong>Contact:</strong><br>
-          <div class="contact-icons">
+          <div class="contact-icons" style="font-size: 1.5em;">
             {% if page.twitter %}
               <a href="https://twitter.com/{{ page.twitter }}">
                 <i class="fa fa-twitter wow bounceIn text-primary" data-wow-delay=".1s"></i>
@@ -97,7 +97,7 @@
               </a>
             {% endif %}
         </div>
-        </p>
+        <!-- </p> -->
       </div>
     </div>
   </section>
