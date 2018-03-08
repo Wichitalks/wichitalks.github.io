@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body style="height:100vh;">
+  {% include nav-internal.html %}
+  <header style="height: 100%;">
+    <article style="padding-top: 50px; height: 100%;">
+        {{ content }}
+    </article>
+  </header>
+  
+  {% include scripts.html %}
+</body>
+
+</html>
