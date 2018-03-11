@@ -23,10 +23,5 @@ Our city is so full of dreamers. But if we don't know about those dreams, we can
 
 So, in conclusion: Wichitalks is scary, magical and changing our city 5 minutes and 20 slides at a time.
 
-<span style="font-size: 0.75em;">Stay included by signing up for our [newsletter][email signup] or following us on the [web][Twitter]. The greatest compliment you can give us is by letting your friends and family know about us as well as sharing these ideas and inspiring each other to keep giving back to our community.</span>
-
-[email signup]: http://wichitalks.us14.list-manage.com/subscribe?u=9bee36d279ae536f6069559f7&id=be34ddd4bc
 [ICT SOS]: http://ictsos.org/
 [Jennifer White]: /jennifer-white
-[patreon]: http://patreon.com/wichitalks
-[Twitter]: https://twitter.com/wichitalks

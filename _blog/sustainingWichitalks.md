@@ -24,8 +24,5 @@ Wichitalks is a labor of love for all of its organizers. We hope that you enjoy 
 Thank you,  
 Kevin
 
-<span style="font-size: 0.75em;">Stay included by signing up for our [newsletter][email signup] or following us on the [web][Twitter]. The greatest compliment you can give us is by letting your friends and family know about us as well as sharing these ideas and inspiring each other to keep giving back to our community.</span>
-
-[email signup]: http://wichitalks.us14.list-manage.com/subscribe?u=9bee36d279ae536f6069559f7&id=be34ddd4bc
 [patreon]: http://patreon.com/wichitalks
 [Twitter]: https://twitter.com/wichitalks

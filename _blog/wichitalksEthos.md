@@ -23,8 +23,6 @@ Wichitalks envisions a Wichita of opportunity for everyone, a Wichita not afraid
 Thank you,  
 Kevin
 
-<span style="font-size: 0.75em;">Stay included by signing up for our [newsletter][email signup] or following us on the [web][Twitter]. The greatest compliment you can give us is by letting your friends and family know about us as well as sharing these ideas and inspiring each other to keep giving back to our community.</span>
-
 [opportunity capital]: http://www.ypwichita.org/wichita-rising/
 [James Chung]: https://thechungreport.com/the-report/
 [Thomas Stanley]: http://wichitalks.com/thomas-stanley
@@ -35,5 +33,3 @@ Kevin
 [Seth Etter]: http://wichitalks.com/seth-etter
 [Claudia Amaro]: http://wichitalks.com/claudia_amaro
 [HQ Swagger]: http://www.kansas.com/news/business/biz-columns-blogs/business-perspectives/article117979403.html
-[email signup]: http://wichitalks.us14.list-manage.com/subscribe?u=9bee36d279ae536f6069559f7&id=be34ddd4bc
-[Twitter]: https://twitter.com/wichitalks
