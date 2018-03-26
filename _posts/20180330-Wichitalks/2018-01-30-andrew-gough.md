@@ -1,6 +1,6 @@
 ---
 layout: interior
-title: Sustainable Business and Why It Matters
+title: I'm Married to My Business
 speaker: Andrew Gough
 permalink: andrew-gough
 image: img/20180330/andrewGough.jpg
